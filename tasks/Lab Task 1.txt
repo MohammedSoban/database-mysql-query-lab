@@ -1,0 +1,15 @@
+Lab Task
+Task 1: Create a table tblStudents with the following fields: StudentID, FirstName, LastName, StudentName, EmailAddress, Gender, PhoneNumber, picture, Type
+a.	 Use data type “Calculated” to combine first name and last name in a new field called StudentName
+b.	Use look up wizard that has the following options: Morning, Evening, Weekend
+c.	 Make sure that the user either enters M or F or leaves it null, in case of error a message should be displayed.
+d.	Student’s ID should have a fixed format through input mask.
+e.	Enter 10 records in the student table
+Task 2: Create a new database that has two tables Customers and PhoneNumbers.
+tblCustomers should contain the fields CustID, FirstName, LastName, CustomerName, Address.
+tblPhoneNumbers should contain the fields PhoneNumberID, Type, PhoneNumber.
+a.	Customer name should be a calculated field
+b.	CustID and PhoneNumberId should be primary key
+c.	Create a one-to-many relationship between Customers and PhoneNumbers. 
+d.	Type must be a lookup field with options like, home, fax, mobile, emergency, other.
+
